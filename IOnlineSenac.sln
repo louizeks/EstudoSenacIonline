@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOnlineSenac", "IOnlineSenac\IOnlineSenac.csproj", "{22F7FFC8-37CC-4ADB-B175-0AC1274C34DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOnlineSenac.Data.Repository", "Repositories\IOnlineSenac.Data.Repository.csproj", "{B2D11DD8-D89E-4AF0-872E-5B720D18F8B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOnlineSenac.Domain", "Services\IOnlineSenac.Domain.csproj", "{6AB66F9D-8A57-4DBE-B7B4-0723B98FC158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - API", "0 - API", "{87C3EC13-DE39-44A0-9CDD-526409FFE5D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOnlineSenac.Application", "IOnlineSenac.Application\IOnlineSenac.Application.csproj", "{4A7C3A2D-F757-4604-8FB0-C85C662E72F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOnlineSenac.Data.Context", "IOnlineSenaca.Data.Context\IOnlineSenac.Data.Context.csproj", "{FDF6E7E5-6C3C-477F-980F-C872E00710A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{B20D4CC5-26BB-4D73-B243-E42A66F4A33C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C2646AC2-35DD-4191-AF10-E71E51FFBB43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{BCAC31BB-3AC3-4D19-B655-7D8173591B75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{650EF376-E157-4654-B046-586CA55476BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOnlineSenac.Service", "IOnlineSenacService\IOnlineSenac.Service.csproj", "{B1DB52E0-C76B-41E9-85D0-3B10382BFDE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - DTO", "5 - DTO", "{B4983CA9-855C-43CA-A4A1-7CD0610B6826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOnlineSenac.DTO", "IOnlineSenac.DTO\IOnlineSenac.DTO.csproj", "{4C322F33-6D1D-4420-B924-41CFBD8E2211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{AD4C41DB-04ED-4105-96C7-0BEC79080DD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F7FFC8-37CC-4ADB-B175-0AC1274C34DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F7FFC8-37CC-4ADB-B175-0AC1274C34DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F7FFC8-37CC-4ADB-B175-0AC1274C34DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F7FFC8-37CC-4ADB-B175-0AC1274C34DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D11DD8-D89E-4AF0-872E-5B720D18F8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D11DD8-D89E-4AF0-872E-5B720D18F8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D11DD8-D89E-4AF0-872E-5B720D18F8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D11DD8-D89E-4AF0-872E-5B720D18F8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB66F9D-8A57-4DBE-B7B4-0723B98FC158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB66F9D-8A57-4DBE-B7B4-0723B98FC158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB66F9D-8A57-4DBE-B7B4-0723B98FC158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB66F9D-8A57-4DBE-B7B4-0723B98FC158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7C3A2D-F757-4604-8FB0-C85C662E72F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7C3A2D-F757-4604-8FB0-C85C662E72F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7C3A2D-F757-4604-8FB0-C85C662E72F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7C3A2D-F757-4604-8FB0-C85C662E72F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF6E7E5-6C3C-477F-980F-C872E00710A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF6E7E5-6C3C-477F-980F-C872E00710A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF6E7E5-6C3C-477F-980F-C872E00710A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF6E7E5-6C3C-477F-980F-C872E00710A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DB52E0-C76B-41E9-85D0-3B10382BFDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DB52E0-C76B-41E9-85D0-3B10382BFDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DB52E0-C76B-41E9-85D0-3B10382BFDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DB52E0-C76B-41E9-85D0-3B10382BFDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C322F33-6D1D-4420-B924-41CFBD8E2211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C322F33-6D1D-4420-B924-41CFBD8E2211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C322F33-6D1D-4420-B924-41CFBD8E2211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C322F33-6D1D-4420-B924-41CFBD8E2211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22F7FFC8-37CC-4ADB-B175-0AC1274C34DD} = {87C3EC13-DE39-44A0-9CDD-526409FFE5D7}
+		{B2D11DD8-D89E-4AF0-872E-5B720D18F8B8} = {650EF376-E157-4654-B046-586CA55476BD}
+		{6AB66F9D-8A57-4DBE-B7B4-0723B98FC158} = {C2646AC2-35DD-4191-AF10-E71E51FFBB43}
+		{4A7C3A2D-F757-4604-8FB0-C85C662E72F2} = {B20D4CC5-26BB-4D73-B243-E42A66F4A33C}
+		{FDF6E7E5-6C3C-477F-980F-C872E00710A1} = {650EF376-E157-4654-B046-586CA55476BD}
+		{650EF376-E157-4654-B046-586CA55476BD} = {BCAC31BB-3AC3-4D19-B655-7D8173591B75}
+		{B1DB52E0-C76B-41E9-85D0-3B10382BFDE7} = {AD4C41DB-04ED-4105-96C7-0BEC79080DD6}
+		{4C322F33-6D1D-4420-B924-41CFBD8E2211} = {B4983CA9-855C-43CA-A4A1-7CD0610B6826}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {851B7FC1-3FDE-449C-A62D-62C8C7253907}
+	EndGlobalSection
+EndGlobal
