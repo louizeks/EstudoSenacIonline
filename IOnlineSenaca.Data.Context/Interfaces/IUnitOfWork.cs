@@ -10,6 +10,7 @@ namespace IOnlineSenac.Data.Context.Interfaces
     {
         IAcessoRepository AcessoRepository { get; }
         IUsuarioRepository UsuarioRepository { get; }
+        IEventoRepository EventoRepository { get;  }
         void Commit();
     }
 }

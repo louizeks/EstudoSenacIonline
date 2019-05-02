@@ -14,6 +14,7 @@ namespace IOnlineSenac.Data.Context
         private SqlTransaction _transaction;
         private IAcessoRepository _acessoRepository;
         private IUsuarioRepository _usuarioRepository;
+        private IEventoRepository _eventoRepository;
         private bool _disposed;
 
         public UnitOfWork(IConfiguration configuracoes)
@@ -33,6 +34,13 @@ namespace IOnlineSenac.Data.Context
             get { return _usuarioRepository ?? (_usuarioRepository = new UsuarioRepository(_transaction)); }
         }
 
+        public IEventoRepository EventoRepository
+        {
+            get { return _eventoRepository ?? (_eventoRepository = new EventoRepository(_transaction)); }
+        }
+
+ 
+ 
         public void Commit()
         {
             try
@@ -55,6 +63,8 @@ namespace IOnlineSenac.Data.Context
         private void ResetRepositories()
         {
             _acessoRepository = null;
+            _eventoRepository = null;
+            _usuarioRepository = null;
         }
 
         public void Dispose()

@@ -26,6 +26,7 @@ namespace IOnlineSenac.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Produces(typeof(ValidaAcessoResponse))]
         public ActionResult<ValidaAcessoResponse> Get([FromQuery]ValidaAcessoRequest request)
         {
             if (ModelState.IsValid)
